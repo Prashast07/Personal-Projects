@@ -9,4 +9,4 @@ def permutation(word):
 			allPermutations.append(perm[:i] + char + perm[i:])
 	return allPermutations
 
-print permutation("abcd")
+print permutation("abc")
